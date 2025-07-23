@@ -1,5 +1,35 @@
+/* 
 body {
 display: flex;
 flex-direction: row;
 justify-content: space-evenly;
+}
+*/
+
+main {
+display: flex;
+    height: 100vh;
+}
+.list{
+    background-color: aquamarine;
+    flex: 2;
+}
+#form{
+    background-color: antiquewhite;
+    flex: 4;
+}
+.task {
+    margin: 10px 20px;
+    padding: 10px;
+    display: flex;
+}
+.task .status{
+flex: 1;
+}
+.task .info{
+flex: 3;
+}
+
+.task .date-budget{
+    flex: 1;
 }
